@@ -1,0 +1,121 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 284 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.6.166:3000/
+12:19:01 PM [vite] Pre-transform error: Transform failed with 4 errors:
+/home/workspace/src/components/Contact.jsx:51:12: ERROR: Unexpected closing "motion.div" tag does not match opening "div" tag
+/home/workspace/src/components/Contact.jsx:52:10: ERROR: Unexpected closing "div" tag does not match opening "motion.div" tag
+/home/workspace/src/components/Contact.jsx:54:6: ERROR: Unexpected closing "section" tag does not match opening "div" tag
+/home/workspace/src/components/Contact.jsx:57:0: ERROR: Unexpected end of file before a closing "section" tag
+12:19:02 PM [vite] ✨ new dependencies optimized: lucide-react, framer-motion, @splinetool/react-spline
+12:19:02 PM [vite] ✨ optimized dependencies changed. reloading
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-XPR23Y44.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+12:19:02 PM [vite] Pre-transform error: Transform failed with 4 errors:
+/home/workspace/src/components/Contact.jsx:51:12: ERROR: Unexpected closing "motion.div" tag does not match opening "div" tag
+/home/workspace/src/components/Contact.jsx:52:10: ERROR: Unexpected closing "div" tag does not match opening "motion.div" tag
+/home/workspace/src/components/Contact.jsx:54:6: ERROR: Unexpected closing "section" tag does not match opening "div" tag
+/home/workspace/src/components/Contact.jsx:57:0: ERROR: Unexpected end of file before a closing "section" tag
+12:19:03 PM [vite] Internal server error: Transform failed with 4 errors:
+/home/workspace/src/components/Contact.jsx:51:12: ERROR: Unexpected closing "motion.div" tag does not match opening "div" tag
+/home/workspace/src/components/Contact.jsx:52:10: ERROR: Unexpected closing "div" tag does not match opening "motion.div" tag
+/home/workspace/src/components/Contact.jsx:54:6: ERROR: Unexpected closing "section" tag does not match opening "div" tag
+/home/workspace/src/components/Contact.jsx:57:0: ERROR: Unexpected end of file before a closing "section" tag
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Contact.jsx:51:12
+  
+  Unexpected closing "motion.div" tag does not match opening "div" tag
+  49 |                  <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-white/[0.04] border border-white/10 hover:bg-white/[0.08] transition"><Facebook size={18}/></a>
+  50 |                </div>
+  51 |            </motion.div>
+     |              ^
+  52 |          </div>
+  53 |        </div>
+  
+  Unexpected closing "div" tag does not match opening "motion.div" tag
+  50 |                </div>
+  51 |            </motion.div>
+  52 |          </div>
+     |            ^
+  53 |        </div>
+  54 |      </section>
+  
+  Unexpected closing "section" tag does not match opening "div" tag
+  52 |          </div>
+  53 |        </div>
+  54 |      </section>
+     |        ^
+  55 |    );
+  56 |  }
+  
+  Unexpected end of file before a closing "section" tag
+  55 |    );
+  56 |  }
+  57 |  
+     |  ^
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-XPR23Y44.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+12:19:24 PM [vite] Internal server error: Transform failed with 4 errors:
+/home/workspace/src/components/Contact.jsx:51:12: ERROR: Unexpected closing "motion.div" tag does not match opening "div" tag
+/home/workspace/src/components/Contact.jsx:52:10: ERROR: Unexpected closing "div" tag does not match opening "motion.div" tag
+/home/workspace/src/components/Contact.jsx:54:6: ERROR: Unexpected closing "section" tag does not match opening "div" tag
+/home/workspace/src/components/Contact.jsx:57:0: ERROR: Unexpected end of file before a closing "section" tag
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Contact.jsx:51:12
+  
+  Unexpected closing "motion.div" tag does not match opening "div" tag
+  49 |                  <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-white/[0.04] border border-white/10 hover:bg-white/[0.08] transition"><Facebook size={18}/></a>
+  50 |                </div>
+  51 |            </motion.div>
+     |              ^
+  52 |          </div>
+  53 |        </div>
+  
+  Unexpected closing "div" tag does not match opening "motion.div" tag
+  50 |                </div>
+  51 |            </motion.div>
+  52 |          </div>
+     |            ^
+  53 |        </div>
+  54 |      </section>
+  
+  Unexpected closing "section" tag does not match opening "div" tag
+  52 |          </div>
+  53 |        </div>
+  54 |      </section>
+     |        ^
+  55 |    );
+  56 |  }
+  
+  Unexpected end of file before a closing "section" tag
+  55 |    );
+  56 |  }
+  57 |  
+     |  ^
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
