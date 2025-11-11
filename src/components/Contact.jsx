@@ -48,6 +48,7 @@ export default function Contact() {
                 <a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-white/[0.04] border border-white/10 hover:bg-white/[0.08] transition"><Instagram size={18}/></a>
                 <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-white/[0.04] border border-white/10 hover:bg-white/[0.08] transition"><Facebook size={18}/></a>
               </div>
+            </div>
           </motion.div>
         </div>
       </div>
